@@ -30,6 +30,22 @@ Try to use both the let and const keywords
 
 //your code here
 
+const greeting = "Hei, Velkommen";
+console.log(greeting);
+
+const name = "Morten";
+console.log(name);
+
+let age = "32";
+console.log(age);
+
+let userHobbies = ["gaming", "trening", "friluft"];
+console.log(userHobbies[2]);
+
+let havePc = true;
+if (havePc) {
+  console.log("Jeg har pc");
+}
 /****************************************************************************** 
 ASSIGNMENT 3
 
@@ -38,6 +54,31 @@ as well as a few of the shorthand operators (++, --, +=, -=)
 ******************************************************************************/
 
 //your code here
+
+let x = 10;
+let y = 12;
+
+console.log(x + y);
+console.log(y - x);
+console.log(x / y);
+console.log(x * y);
+
+let a = 50;
+let b = 10;
+
+a++;
+console.log(a);
+
+a--;
+console.log(a);
+
+let sum = 2;
+sum += 10;
+console.log(sum);
+
+let pris = 5;
+pris -= 10;
+console.log(pris);
 
 /****************************************************************************** 
 ASSIGNMENT 4
@@ -65,6 +106,12 @@ let goToPage = "";
 
 //your code here
 
+if (userName && userAge >= 18 && userIsBlocked) {
+  userIsLoggedIn = true;
+} else {
+  console.log("feil");
+}
+
 /******************************************************************************
 ASSIGNMENT 5
 
@@ -81,3 +128,6 @@ to see that your conditional is working.
 const userMale = false;
 
 //your code here
+
+const userTitle = userMale ? "Mr" : "Mrs";
+console.log(userTitle);
